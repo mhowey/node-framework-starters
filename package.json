@@ -1,0 +1,13 @@
+{
+  "name": "starters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nest-start": "cd ./nestjs && npm start",
+    "start": "node ./express/server.js & node ./koa/server.js & node ./fastify/server.js & npm run nest-start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
