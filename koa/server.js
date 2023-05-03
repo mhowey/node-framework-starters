@@ -5,5 +5,5 @@ app.use(async ctx => {
   ctx.body = 'hello world - Koa';
 })
 const port = process.env.PORT || 4001;
-console.log(`server is running at http://localhost:${port}`)
+console.log(`Koa server is running at http://localhost:${port}`)
 app.listen(port);
